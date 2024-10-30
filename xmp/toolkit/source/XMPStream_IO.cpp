@@ -29,6 +29,8 @@
 #include "source/XIO.hpp"
 #include "source/XMP_LibUtils.hpp"
 
+#include <cstring>
+
 #define TwoGB (XMP_Uns32)(2*1024*1024*1024UL)
 
 #define XMP_STREAMIO_START try { /* int a;*/
